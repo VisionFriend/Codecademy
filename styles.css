@@ -1,0 +1,53 @@
+h1 {
+  text-transform: uppercase;
+  color: tan;
+  margin-bottom: 10%;
+  text-align: center; 
+} 
+h2{
+  text-transform: uppercase;
+  text-align: center;  
+  
+}
+h3{
+  background-color: tan;
+  margin-bottom: 0px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+
+}
+/* Table look  */
+table{
+  margin: auto;
+}
+
+td {
+  padding: 10px;
+}
+
+thead {
+font-family: helvetica, sans-serif;
+font-size: 150%;
+background-color: tan;
+padding: 10px
+}
+
+tbody {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+.code {
+  font-family: monospace;
+  color: white;
+  background-color: black;
+}
+
+.note {
+  font-style: bold;
+  background-color: tan;
+  text-align: center;
+  margin: auto;
+}
