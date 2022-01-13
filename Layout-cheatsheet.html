@@ -1,0 +1,190 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    
+    <body>
+      <h1>Layout Cheat Sheet</h1>
+<!-- Float Section -->
+      
+      <h2>Float</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Value</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+        <tbody>
+          <tr>
+            <td class="code">none</td>
+            <td>"None" is the default float value. This ensures that the element does NOT float.</td>
+          </tr>
+          <tr>
+            <td class="code">left</td>
+            <td>The float left value will keep the element as far left as possible while keeping the element in the "text flow", allowing text and other elments to flow naturally around it.</td>
+          </tr>
+          <tr>
+            <td class="code">right</td>
+            <td>Just like "float left" but this time on the right side of the layout.</td>
+          </tr>
+          
+          
+          <tr>
+            <td class="code">inherit</td>
+            <td>"Inherit" will take the float value from the element's parent element.</td>
+          </tr>
+        </tbody>
+      </table>
+
+<!-- Clear Section -->
+      
+      <h2>Clear</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Value</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+        <tbody>
+          <tr>
+            <td class="code">both</td>
+            <td>This is the most common use of "clear"" and ensures that both left and right floats are stopped.</td>
+          </tr>
+          <tr>
+            <td class="code">left</td>
+            <td>Prevents the element from being drawn into a left-float's flow.</td>
+          </tr>
+          <tr>
+            <td class="code">right</td>
+            <td>Just like "clear: left;" but for a right-float.</td>
+          </tr>
+          
+        </tbody>
+      </table>
+            
+<!-- Position Section -->
+      
+        <h2>Position</h2>
+        
+          <table>
+            <thead>
+            <tr>
+              <th>Value</th>
+              <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td class="code">static</td>
+              <td>Static positioned elements are not affected by the top, bottom, left, and right properties.</td>
+            </tr>
+            <tr>
+              <td class="code">relative</td>
+              <td>An element with position: relative; is positioned relative to its normal position.</td>
+            </tr>
+            <tr>
+              <td class="code">fixed</td>
+              <td>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.</td>
+            </tr>
+            <tr>
+              <td class="code">absolute</td>
+              <td>An element with position: absolute; is positioned relative to the nearest positioned ancestor element</td>
+            </tr>
+            <tr>
+              <td class="code">sticky</td>
+              <td>A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- Position Section -->
+      
+        <h2>Position Properties</h2>
+        
+          <table>
+            <thead>
+            <tr>
+              <th>Value</th>
+              <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td class="code">bottom</td>
+              <td>Sets the bottom margin edge for a positioned box</td>
+            </tr>
+            <tr>
+              <td class="code">clip</td>
+              <td>Clips an absolutely positioned element</td>
+            </tr>
+            <tr>
+              <td class="code">left</td>
+              <td>Sets the left margin edge for a positioned box</td>
+            </tr>
+            <tr>
+              <td class="code">right</td>
+              <td>Sets the right margin edge for a positioned box</td>
+            </tr>
+             <tr>
+              <td class="code">top</td>
+              <td>Sets the top margin edge for a positioned box</td>
+            </tr>
+            </tbody>
+        </table>
+
+                <!-- Display Section -->
+        <h2>Display</h2>
+        
+          <table>
+            <thead>
+            <tr>
+              <th>Value</th>
+              <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td class="code">in-line</td>
+              <td>Displays an element as an inline element (like span). Any height and width properties will have no effect</td>
+            </tr>
+            <tr>
+              <td class="code">block</td>
+              <td>Displays an element as a block element (like p). It starts on a new line, and takes up the whole width</td>
+            </tr>
+            <tr>
+              <td class="code">in-line-block</td>
+              <td>Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values</td>
+            </tr>
+            <tr>
+              <td class="code">none</td>
+              <td>The element is completely removed</td>
+            </tr>           
+            </tbody>
+            </table>
+            <span class="note">* There were 23 more values for the display property which I have omited, as I have not studied them yet.</span>
+      
+ <!-- Additional Properties Section -->
+    
+      <h2>Additional</h2>
+        <table>
+          <thead>
+          <tr>
+            <th>Value</th>
+            <th>Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="code">z-index</td>
+            <td>Z-index is the web equality of the Z axis.<br> It decides what is on "top" or bottom of a visual stack.<br> Accepts vaules betweem: (Research: I think 1-100?)</td>
+          </tr>
+          
+          </tbody>
+        </table>
+     
+</body>
+
+</html>
